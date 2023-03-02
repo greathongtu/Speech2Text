@@ -6,9 +6,17 @@ This PowerShell script can transcribe or translate an audio file using the OpenA
 
 Before using the script, make sure you have an OpenAI API key and have set the environment variable OPENAI_API_KEY to the API key. 
 
+```
+$env:OPENAI_API_KEY = "API_KEY"
+```
+
+Replace `API_KEY` with API key you get from OPENAI 
+
 To use the script, run the following command:
 
+```
 .\voice2word.ps1 -FilePath "<path/to/audio/file>" [-Type "<transcriptions/translations>"]
+```
 
 Replace `<path/to/audio/file>` with the path to the audio file you want to transcribe/translate. 
 
@@ -24,12 +32,16 @@ By default, the script will generate a transcription of the audio file. If you w
 
 To transcribe an audio file:
 
+```
 .\voice2word.ps1 -FilePath "C:\audio.wav"
+```
 
 This command transcribes the audio file "audio.wav" and saves the transcription to a file named "result.txt".
 
 To translate an audio file:
 
+```
 .\Transcribe-Audio.ps1 -FilePath "C:\audio.wav" -Type "translations"
+```
 
 This command translates the audio file "audio.wav" and saves the translation to a file named "result.txt".
