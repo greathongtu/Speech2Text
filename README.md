@@ -10,7 +10,7 @@ Before using the script, make sure you have an OpenAI API key and have set the e
 $env:OPENAI_API_KEY = "API_KEY"
 ```
 
-Replace `API_KEY` with API key you get from OPENAI 
+Replace `API_KEY` with API key you get from OPENAI.
 
 To use the script, run the following command:
 
