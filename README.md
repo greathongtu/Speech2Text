@@ -33,7 +33,7 @@ By default, the script will generate a transcription of the audio file. If you w
 To transcribe an audio file:
 
 ```
-.\voice2word.ps1 -FilePath "C:\audio.wav"
+.\voice2word.ps1 -FilePath "C:\audio.mp3"
 ```
 
 This command transcribes the audio file "audio.wav" and saves the transcription to a file named "result.txt".
@@ -41,7 +41,7 @@ This command transcribes the audio file "audio.wav" and saves the transcription 
 To translate an audio file:
 
 ```
-.\Transcribe-Audio.ps1 -FilePath "C:\audio.wav" -Type "translations"
+.\voice2word.ps1 -FilePath "C:\audio.wav" -Type "translations"
 ```
 
 This command translates the audio file "audio.wav" and saves the translation to a file named "result.txt".
